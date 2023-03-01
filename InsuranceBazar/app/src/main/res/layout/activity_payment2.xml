@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activitise.Payment2Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/display_layout"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingClass">
+
+        <EditText
+            android:id="@+id/cardname_id"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/shapecreditcardscreen"
+            android:hint="Name on Card"
+            android:imeOptions="actionNext"
+            android:maxLines="1"
+            android:paddingLeft="10dp"
+            android:singleLine="true">
+
+        </EditText>
+        <EditText
+            android:id="@+id/card_number_id"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/shapecreditcardscreen"
+            android:hint="0000-0000-0000-0000"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxLength="19"
+            android:maxLines="1"
+            android:paddingLeft="10dp"
+            android:singleLine="true"></EditText>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="3"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/month_id"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/shapecreditcardscreen"
+                android:hint="Month"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxLength="2"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textAlignment="center">
+
+            </EditText>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/month_id"
+                android:layout_weight="1"
+                android:background="@drawable/shapecreditcardscreen"
+                android:hint="Year"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxLength="4"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textAlignment="center">
+
+            </EditText>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/shapecreditcardscreen"
+                android:hint="CVV"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:maxLength="3"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textAlignment="center">
+
+            </EditText>
+
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/address_org"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/shapecreditcardscreen"
+            android:hint="Enter Address"
+            android:padding="10dp"
+            android:maxLength="93"
+            android:imeOptions="actionDone"
+            android:paddingLeft="10dp"></EditText>
+
+        <Button
+            android:id="@+id/paybtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="0.2"
+            android:background="@drawable/shapecreditbtn"
+            android:text="Pay"
+            android:textColor="@color/signuptxtcolor"
+            android:textSize="15sp"></Button>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.appybuilder.alioffical.insurancebazar">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.InsuranceBazar">
+        <activity
+            android:name=".Activitise.HistoryActivity"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+            android:exported="false" />
+        <activity
+            android:name=".Activitise.Payment2Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Activitise.ForgotPassActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activitise.PaymentActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activitise.ThankYouActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activitise.InsurancePackageDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activitise.HomeActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".Activitise.PoliciesCategoryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activitise.RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activitise.CategoryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activitise.ProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activitise.LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activitise.InsurancFormActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activitise.BrowseInsuranceActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activitise.PackagesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activitise.SplashScreenActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

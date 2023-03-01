@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/InsuranceBazar/app/src/main/res/drawable-v24/selectedcolor.xml" value="0.21666666666666667" />
+        <entry key="..\:/InsuranceBazar/app/src/main/res/drawable-v24/shapecontainer.xml" value="0.17760416666666667" />
+        <entry key="..\:/InsuranceBazar/app/src/main/res/drawable/bg_filedshape.xml" value="0.2123076923076923" />
+        <entry key="..\:/InsuranceBazar/app/src/main/res/drawable/bgitems.xml" value="0.1625" />
+        <entry key="..\:/InsuranceBazar/app/src/main/res/drawable/businesinsurace.xml" value="1.2142857142857142" />
+        <entry key="..\:/InsuranceBazar/app/src/main/res/drawable/categoryshapes.xml" value="0.2203125" />
+        <entry key="..\:/InsuranceBazar/app/src/main/res/drawable/educationinsuranceshape.xml" value="0.2203125" />
+        <entry key="..\:/InsuranceBazar/app/src/main/res/drawable/emailpassbg.xml" value="0.2203125" />
+        <entry key="..\:/InsuranceBazar/app/src/main/res/drawable/healthinsuracebtnshape.xml" value="0.2203125" />
+        <entry key="..\:/InsuranceBazar/app/src/main/res/drawable/shape_circle.xml" value="0.2169230769230769" />
+        <entry key="..\:/InsuranceBazar/app/src/main/res/drawable/shapeaccept_policy.xml" value="0.2203125" />
+        <entry key="..\:/InsuranceBazar/app/src/main/res/drawable/shapecreditbtn.xml" value="0.10925925925925926" />
+        <entry key="..\:/InsuranceBazar/app/src/main/res/drawable/shapecreditcardscreen.xml" value="0.15260416666666668" />
+        <entry key="..\:/InsuranceBazar/app/src/main/res/drawable/shapeproduct_detail.xml" value="0.2203125" />
+        <entry key="..\:/InsuranceBazar/app/src/main/res/drawable/shaplogin.xml" value="0.2203125" />
+        <entry key="..\:/InsuranceBazar/app/src/main/res/drawable/signinbtnshape.xml" value="0.2203125" />
+        <entry key="..\:/InsuranceBazar/app/src/main/res/layout/activity_browse_insurance.xml" value="0.18796296296296297" />
+        <entry key="..\:/InsuranceBazar/app/src/main/res/layout/activity_category.xml" value="0.20102564102564102" />
+        <entry key="..\:/InsuranceBazar/app/src/main/res/layout/activity_forgot_pass.xml" value="0.19947916666666668" />
+        <entry key="..\:/InsuranceBazar/app/src/main/res/layout/activity_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/InsuranceBazar/app/src/main/res/layout/activity_insuranc_form.xml" value="0.33" />
+        <entry key="..\:/InsuranceBazar/app/src/main/res/layout/activity_insurance_form.xml" value="0.20416666666666666" />
+        <entry key="..\:/InsuranceBazar/app/src/main/res/layout/activity_insurance_package_detail.xml" value="0.25" />
+        <entry key="..\:/InsuranceBazar/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/InsuranceBazar/app/src/main/res/layout/activity_main.xml" value="0.1824074074074074" />
+        <entry key="..\:/InsuranceBazar/app/src/main/res/layout/activity_payment.xml" value="0.21" />
+        <entry key="..\:/InsuranceBazar/app/src/main/res/layout/activity_payment2.xml" value="0.19947916666666668" />
+        <entry key="..\:/InsuranceBazar/app/src/main/res/layout/activity_policies_category.xml" value="0.19722222222222222" />
+        <entry key="..\:/InsuranceBazar/app/src/main/res/layout/activity_profile.xml" value="0.1824074074074074" />
+        <entry key="..\:/InsuranceBazar/app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="..\:/InsuranceBazar/app/src/main/res/layout/activity_splash_screen.xml" value="0.18981481481481483" />
+        <entry key="..\:/InsuranceBazar/app/src/main/res/layout/activity_thank_you.xml" value="0.20416666666666666" />
+        <entry key="..\:/InsuranceBazar/app/src/main/res/layout/fragment_about.xml" value="0.19947916666666668" />
+        <entry key="..\:/InsuranceBazar/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/InsuranceBazar/app/src/main/res/layout/itemresourcefile.xml" value="0.25" />
+        <entry key="..\:/InsuranceBazar/app/src/main/res/layout/productresourcefile.xml" value="0.16145833333333334" />
+        <entry key="..\:/InsuranceBazar/app/src/main/res/menu/menubottom.xml" value="0.1824074074074074" />
+        <entry key="..\:/InsuranceBazar/app/src/main/res/menu/navigationmenu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/ali.abid/Desktop/Haider/InsuranceBazar/app/src/main/res/drawable/shapepolicys.xml" value="0.117" />
+        <entry key="..\:/Users/ali.abid/Desktop/Haider/InsuranceBazar/app/src/main/res/layout/activity_history.xml" value="0.1" />
+        <entry key="..\:/Users/ali.abid/Desktop/Haider/InsuranceBazar/app/src/main/res/layout/activity_home.xml" value="0.19519927536231885" />
+        <entry key="..\:/Users/ali.abid/Desktop/Haider/InsuranceBazar/app/src/main/res/layout/app_bar_main.xml" value="0.19519927536231885" />
+        <entry key="..\:/Users/ali.abid/Desktop/Haider/InsuranceBazar/app/src/main/res/layout/fragment_map.xml" value="0.19519927536231885" />
+        <entry key="..\:/Users/ali.abid/Desktop/Haider/InsuranceBazar/app/src/main/res/layout/headerlayout.xml" value="0.19519927536231885" />
+        <entry key="..\:/Users/ali.abid/Desktop/Haider/InsuranceBazar/app/src/main/res/layout/historyresourcefile.xml" value="0.19519927536231885" />
+        <entry key="..\:/Users/ali.abid/Desktop/Haider/InsuranceBazar/app/src/main/res/layout/policyresourcefile.xml" value="0.136" />
+        <entry key="..\:/Users/ali.abid/Desktop/Haider/InsuranceBazar/app/src/main/res/menu/menubottom.xml" value="0.2234375" />
+        <entry key="..\:/Users/ali.abid/Desktop/Haider/InsuranceBazar/app/src/main/res/menu/navigationmenu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ali.abid/Desktop/LatestAmigoProject/InsuranceBazarlatest/InsuranceBazar/app/src/main/res/layout/activity_payment2.xml" value="0.16" />
+        <entry key="..\:/Users/ali.abid/Desktop/LatestAmigoProject/InsuranceBazarlatest/InsuranceBazar/app/src/main/res/layout/activity_policies_category.xml" value="0.18206521739130435" />
+        <entry key="..\:/Users/ali.abid/Desktop/LatestAmigoProject/InsuranceBazarlatest/InsuranceBazar/app/src/main/res/layout/historyresourcefile.xml" value="0.22604166666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activitise.CategoryActivity">
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/insurancelogo"
+        android:layout_height="120dp">
+
+    </ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+
+
+    <Button
+        android:id="@+id/efu_id"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/md_light_blue_200"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text="EFU"
+        android:textStyle="bold">
+
+    </Button>
+
+    <Button
+        android:id="@+id/lfein_id"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/md_green_300"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text="LIFE INSURANCE"
+        android:textStyle="bold">
+
+    </Button>
+
+    <Button
+        android:id="@+id/healthjub_id"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/purple_200"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text="HEALTH JUBLE"
+        android:textStyle="bold">
+
+    </Button>
+    </LinearLayout>
+
+</RelativeLayout>

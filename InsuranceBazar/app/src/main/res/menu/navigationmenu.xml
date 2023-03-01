@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_newsfeed"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/Home" />
+
+    <item
+        android:id="@+id/navigation_cmsportal"
+        android:icon="@drawable/ic_baseline_location_on_24"
+        android:title="@string/products" />
+
+    <item
+        android:id="@+id/navigation_timetable"
+        android:icon="@drawable/ic_baseline_policy_24"
+        android:title="@string/policy" />
+
+</menu>

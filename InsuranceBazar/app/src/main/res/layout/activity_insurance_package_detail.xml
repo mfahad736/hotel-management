@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Activitise.InsurancePackageDetailActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/shapeproduct_detail"
+        android:layout_marginRight="20dp"
+        android:layout_height="200dp">
+
+        <TextView
+            android:id="@+id/product_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Product Details">
+
+        </TextView>
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/blue"
+            android:id="@+id/view_id"
+            android:layout_below="@+id/product_detail"
+            android:layout_height="2dp">
+        </View>
+
+        <TextView
+            android:id="@+id/productdes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view_id"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:inputType="textMultiLine"
+            android:paddingLeft="12dp"
+            android:paddingTop="15dp"
+            android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry.\nLorem Ipsum is simply dummy text of the printing and typesetting industry.">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/productdes"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="10dp"
+            android:text="2555 PKR"
+            android:textColor="@color/md_red_200"
+            android:textSize="18sp"
+            android:textStyle="italic">
+
+        </TextView>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shapeproduct_detail"
+        android:layout_marginRight="20dp"
+        android:layout_height="200dp">
+
+        <TextView
+            android:id="@+id/product_detais"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Things to Note">
+
+        </TextView>
+
+        <View
+            android:id="@+id/views_id"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/product_detais"
+            android:background="@color/blue"></View>
+
+        <TextView
+            android:id="@+id/productdescr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:layout_below="@+id/views_id"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center"
+            android:paddingLeft="12dp"
+            android:paddingTop="15dp"
+            android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry.\nLorem Ipsum is simply dummy text of the printing and typesetting industry.\nLorem Ipsum is simply dummy text of the printing and typesetting industry.">
+
+        </TextView>
+
+    </RelativeLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Accept Policy"
+        android:id="@+id/accptbtn"
+        android:background="@drawable/shapeaccept_policy"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+
+</LinearLayout>

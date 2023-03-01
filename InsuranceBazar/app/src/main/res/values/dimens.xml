@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_space_q">40</dimen>
+    <dimen name="app_space">20</dimen>
+    <dimen name="app_space_h">20</dimen>
+    <dimen name="app_shadow_two">20</dimen>
+    <dimen name="spacing_medium">12</dimen>
+    <dimen name="spacing_small">12</dimen>
+    <dimen name="activity_horizontal_margin">56</dimen>
+    <dimen name="profile_width">75</dimen>
+    <dimen name="profile_height">75</dimen>
+    <item name="nav_header_vertical_spacing" type="dimen" format="float">.25</item>
+</resources>
